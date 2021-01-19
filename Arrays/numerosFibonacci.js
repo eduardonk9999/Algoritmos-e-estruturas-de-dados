@@ -8,3 +8,9 @@ for(let i = 3; i < 20; i++){
 for (let i = 1; i < fibonacci.length; i++){
   console.log(fibonacci[i]);
 }
+
+// Remover item do arrau na primeira posição
+let numbers = [1, 4, 7, 9];
+for (let i = 0; i < numbers.length; i++){
+  numbers[i] = numbers[i + 1];
+}
