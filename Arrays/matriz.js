@@ -15,3 +15,17 @@ function printMatrix(myMatrix) {
 }
 
 printMatrix(averageTemp);
+
+
+// Arrays Multidimensionais
+const matris3x3x3x = [];
+for (let i = 0; i < 3; i++){
+    matris3x3x3x[i] = []; // Aqui vai ser iniciado cada array
+    for (let j = 0; j < 3; j++){
+        matris3x3x3x[i][j] = [];
+        for(let z = 0; z < 3; z++){
+            matris3x3x3x[i][j][z] = i + j + z;
+        }
+    }
+}
+
