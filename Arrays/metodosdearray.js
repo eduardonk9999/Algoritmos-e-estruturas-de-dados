@@ -15,3 +15,8 @@ function isEven(x){
 let numbersOne = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // Método every
+/**
+ * Ele intera pelo elementos do array, até que a função devolva um false,
+ * 
+*/
+numbers.every(isEven);
